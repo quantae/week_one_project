@@ -1,0 +1,22 @@
+@import url("https://fonts.google.com/specimen/Lexend+Deca");
+@import url("https://fonts.google.com/specimen/Big+Shoulders+Display");
+
+:root {
+  /**PRIMARY*/
+  --primary1: hsl(31, 77%, 52%); /*Bright Orange*/
+  --primary2: hsl(184, 100%, 22%); /**Dark cyan*/
+  --primary3: hsl(179, 100%, 13%); /**Very dark cyan*/
+
+  /**NEUTRAL*/
+  --neutral1: hsla(0, 0%, 100%, 0.75); /** Transparent white (paragraphs) */
+  --neutral2: hsl(0, 0%, 95%) /**Very light gray (background, headings, buttons) */
+
+  /**TYPOGRAPHY*/
+  --font_size: 15px;
+
+  /**FONT*/
+  --body: 'Lexend Deca', sans-serif;
+  --weight400: 400;
+  --header: 'Big Shoulders Display', sans-serif;
+  --weight700: 700;
+}

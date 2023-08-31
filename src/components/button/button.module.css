@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    background: var(--neutral1);
+    padding: 0.8rem 1.5rem;
+    border-radius: 2rem;
+    color: var(--primary1);
+    border: none;
+    box-shadow: 0 0 2px 2px var(--neutral2);
+    font-weight: var(--weight700);
+    &:active {
+        border: solid 2px var(--neutral1);
+        background-color: transparent;
+        color: var(--neutral1);
+    };
+    &:hover {
+cursor: pointer;
+    }
+}
